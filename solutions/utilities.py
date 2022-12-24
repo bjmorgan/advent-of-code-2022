@@ -1,3 +1,6 @@
+from typing import Optional
+import numpy as np
+
 def xy_array_as_string(array,
                        mapping: dict[int, str],
                        hspace: Optional[bool]=False) -> str:
